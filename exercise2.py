@@ -1,7 +1,9 @@
-algebra = 7
-geometry = 6
-physics = 9
+print("Tip: Grades range from 0 - 10!")
 
-avg = (physics + geometry + algebra)/3
+a = int(input("Algebra: "))
+g = int(input("Geometry: "))
+p = int(input("Physics: "))
+
+avg = (p + g + a)/3
 
 print("Average score: ", avg)
