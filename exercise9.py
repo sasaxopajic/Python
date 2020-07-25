@@ -6,7 +6,7 @@ a = int(input("Algebra: "))
 g = int(input("Geometry: "))
 p = int(input("Physics: "))
 
-avg = a + g + p
+avg = (a + g + p)/3
 avg = round(avg, 2)
 
 if avg >= 7:
