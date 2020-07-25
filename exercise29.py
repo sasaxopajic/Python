@@ -18,8 +18,10 @@ while drivers_count >= 0:
         price = 4.5 + (hrs - 3)*0.5
     total = charge + price
     print("Total: ", total, "$.")
+
     drivers_count = drivers_count + 1
     earnings = earnings + total
+
     m = input("Do you want to continue? (yes/no) ")
     if m == "no":
         print(drivers_count, "drivers payed. The total earnings are", earnings, "$.")
